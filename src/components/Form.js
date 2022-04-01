@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Form = (props) => {
+   
     return(
-        <form action="http://localhost:3001/pizza/result" id="pizza-form">
+        <form id="pizza-form">
             <label>Name
                 <input
                     id="name-input"
