@@ -1,9 +1,15 @@
 import React from "react";
 
-const navBar = (props) => {
+const NavBar = (props) => {
     return(
-        <h1>hello</h1>
+        <nav>
+        <h1>Lambda Eats</h1>
+        <ul>
+            <li>Home</li>
+            <li>Order</li>
+        </ul>
+        </nav>
     )
 }
 
-export default navBar
+export default NavBar
