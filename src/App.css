@@ -38,9 +38,14 @@
 }
 .nav{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-around;
 }
 .navlinks{
   display:flex;
+  justify-content:space-around;
   list-style-type:none;
+}
+
+.headerimage{
+  width:100%;
 }

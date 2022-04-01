@@ -8,7 +8,7 @@ const NavBar = (props) => {
         <h1 >Lambda Eats</h1>
         <ul className="navlinks">
             <Link to="/"><li>Home</li></Link>
-           <Link to="/pizza"><li>Order</li></Link>
+            <Link to="/pizza"><li id="order-pizza">Order</li></Link>
         </ul>
         </nav>
     )
