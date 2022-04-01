@@ -37,5 +37,10 @@
   }
 }
 .nav{
-  color:red;
+  display:flex;
+  justify-content:space-between;
+}
+.navlinks{
+  display:flex;
+  list-style-type:none;
 }
