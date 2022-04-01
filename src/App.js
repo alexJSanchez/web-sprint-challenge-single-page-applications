@@ -3,12 +3,14 @@ import { BrowserRouter , Link ,Route } from "react-router-dom";
 
 import NavBar from "./components/Nav";
 import Header from "./components/header";
+import Form from "./components/Form";
 
 const App = () => {
   return (
     <>
       <NavBar></NavBar>
-      <Header></Header>
+      <Route exact path="/" component={Header} ></Route>
+     <Route path="/pizza" component={Form}></Route>
     </>
   );
 };
